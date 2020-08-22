@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4E5BEC24F0CEE800A4EA23 /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E5BEB24F0CEE800A4EA23 /* ScoreTableViewController.swift */; };
 		39664CE524F0BA6100444547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE424F0BA6100444547 /* AppDelegate.swift */; };
 		39664CE724F0BA6100444547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE624F0BA6100444547 /* SceneDelegate.swift */; };
 		39664CE924F0BA6100444547 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE824F0BA6100444547 /* ClickerViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4E5BEB24F0CEE800A4EA23 /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
 		39664CE124F0BA6100444547 /* Cool Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39664CE424F0BA6100444547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39664CE624F0BA6100444547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				39664CE624F0BA6100444547 /* SceneDelegate.swift */,
 				39664CE824F0BA6100444547 /* ClickerViewController.swift */,
 				39664CEA24F0BA6100444547 /* Main.storyboard */,
+				0A4E5BEB24F0CEE800A4EA23 /* ScoreTableViewController.swift */,
 				39664CED24F0BA6500444547 /* Assets.xcassets */,
 				39664CEF24F0BA6500444547 /* LaunchScreen.storyboard */,
 				39664CF224F0BA6500444547 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4E5BEC24F0CEE800A4EA23 /* ScoreTableViewController.swift in Sources */,
 				39664CE924F0BA6100444547 /* ClickerViewController.swift in Sources */,
 				39664CE524F0BA6100444547 /* AppDelegate.swift in Sources */,
 				39664CE724F0BA6100444547 /* SceneDelegate.swift in Sources */,
