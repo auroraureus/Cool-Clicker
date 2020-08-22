@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39664CE524F0BA6100444547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE424F0BA6100444547 /* AppDelegate.swift */; };
+		39664CE724F0BA6100444547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE624F0BA6100444547 /* SceneDelegate.swift */; };
+		39664CE924F0BA6100444547 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CE824F0BA6100444547 /* ClickerViewController.swift */; };
+		39664CEC24F0BA6100444547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39664CEA24F0BA6100444547 /* Main.storyboard */; };
+		39664CEE24F0BA6500444547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39664CED24F0BA6500444547 /* Assets.xcassets */; };
+		39664CF124F0BA6500444547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39664CEF24F0BA6500444547 /* LaunchScreen.storyboard */; };
+		39664CFC24F0BA6600444547 /* Cool_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664CFB24F0BA6600444547 /* Cool_ClickerTests.swift */; };
+		39664D0724F0BA6600444547 /* Cool_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39664D0624F0BA6600444547 /* Cool_ClickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39664CF824F0BA6600444547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39664CD924F0BA6100444547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39664CE024F0BA6100444547;
+			remoteInfo = "Cool Clicker";
+		};
+		39664D0324F0BA6600444547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39664CD924F0BA6100444547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39664CE024F0BA6100444547;
+			remoteInfo = "Cool Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39664CE124F0BA6100444547 /* Cool Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39664CE424F0BA6100444547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39664CE624F0BA6100444547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39664CE824F0BA6100444547 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		39664CEB24F0BA6100444547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39664CED24F0BA6500444547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39664CF024F0BA6500444547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39664CF224F0BA6500444547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39664CF724F0BA6600444547 /* Cool ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39664CFB24F0BA6600444547 /* Cool_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_ClickerTests.swift; sourceTree = "<group>"; };
+		39664CFD24F0BA6600444547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39664D0224F0BA6600444547 /* Cool ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39664D0624F0BA6600444547 /* Cool_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_ClickerUITests.swift; sourceTree = "<group>"; };
+		39664D0824F0BA6600444547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39664CDE24F0BA6100444547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664CF424F0BA6600444547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664CFF24F0BA6600444547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39664CD824F0BA6100444547 = {
+			isa = PBXGroup;
+			children = (
+				39664CE324F0BA6100444547 /* Cool Clicker */,
+				39664CFA24F0BA6600444547 /* Cool ClickerTests */,
+				39664D0524F0BA6600444547 /* Cool ClickerUITests */,
+				39664CE224F0BA6100444547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39664CE224F0BA6100444547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39664CE124F0BA6100444547 /* Cool Clicker.app */,
+				39664CF724F0BA6600444547 /* Cool ClickerTests.xctest */,
+				39664D0224F0BA6600444547 /* Cool ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39664CE324F0BA6100444547 /* Cool Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				39664CE424F0BA6100444547 /* AppDelegate.swift */,
+				39664CE624F0BA6100444547 /* SceneDelegate.swift */,
+				39664CE824F0BA6100444547 /* ClickerViewController.swift */,
+				39664CEA24F0BA6100444547 /* Main.storyboard */,
+				39664CED24F0BA6500444547 /* Assets.xcassets */,
+				39664CEF24F0BA6500444547 /* LaunchScreen.storyboard */,
+				39664CF224F0BA6500444547 /* Info.plist */,
+			);
+			path = "Cool Clicker";
+			sourceTree = "<group>";
+		};
+		39664CFA24F0BA6600444547 /* Cool ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39664CFB24F0BA6600444547 /* Cool_ClickerTests.swift */,
+				39664CFD24F0BA6600444547 /* Info.plist */,
+			);
+			path = "Cool ClickerTests";
+			sourceTree = "<group>";
+		};
+		39664D0524F0BA6600444547 /* Cool ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39664D0624F0BA6600444547 /* Cool_ClickerUITests.swift */,
+				39664D0824F0BA6600444547 /* Info.plist */,
+			);
+			path = "Cool ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39664CE024F0BA6100444547 /* Cool Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39664D0B24F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool Clicker" */;
+			buildPhases = (
+				39664CDD24F0BA6100444547 /* Sources */,
+				39664CDE24F0BA6100444547 /* Frameworks */,
+				39664CDF24F0BA6100444547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cool Clicker";
+			productName = "Cool Clicker";
+			productReference = 39664CE124F0BA6100444547 /* Cool Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39664CF624F0BA6600444547 /* Cool ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39664D0E24F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool ClickerTests" */;
+			buildPhases = (
+				39664CF324F0BA6600444547 /* Sources */,
+				39664CF424F0BA6600444547 /* Frameworks */,
+				39664CF524F0BA6600444547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39664CF924F0BA6600444547 /* PBXTargetDependency */,
+			);
+			name = "Cool ClickerTests";
+			productName = "Cool ClickerTests";
+			productReference = 39664CF724F0BA6600444547 /* Cool ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39664D0124F0BA6600444547 /* Cool ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39664D1124F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool ClickerUITests" */;
+			buildPhases = (
+				39664CFE24F0BA6600444547 /* Sources */,
+				39664CFF24F0BA6600444547 /* Frameworks */,
+				39664D0024F0BA6600444547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39664D0424F0BA6600444547 /* PBXTargetDependency */,
+			);
+			name = "Cool ClickerUITests";
+			productName = "Cool ClickerUITests";
+			productReference = 39664D0224F0BA6600444547 /* Cool ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39664CD924F0BA6100444547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sleepy;
+				TargetAttributes = {
+					39664CE024F0BA6100444547 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					39664CF624F0BA6600444547 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 39664CE024F0BA6100444547;
+					};
+					39664D0124F0BA6600444547 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 39664CE024F0BA6100444547;
+					};
+				};
+			};
+			buildConfigurationList = 39664CDC24F0BA6100444547 /* Build configuration list for PBXProject "Cool Clicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39664CD824F0BA6100444547;
+			productRefGroup = 39664CE224F0BA6100444547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39664CE024F0BA6100444547 /* Cool Clicker */,
+				39664CF624F0BA6600444547 /* Cool ClickerTests */,
+				39664D0124F0BA6600444547 /* Cool ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39664CDF24F0BA6100444547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39664CF124F0BA6500444547 /* LaunchScreen.storyboard in Resources */,
+				39664CEE24F0BA6500444547 /* Assets.xcassets in Resources */,
+				39664CEC24F0BA6100444547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664CF524F0BA6600444547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664D0024F0BA6600444547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39664CDD24F0BA6100444547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39664CE924F0BA6100444547 /* ClickerViewController.swift in Sources */,
+				39664CE524F0BA6100444547 /* AppDelegate.swift in Sources */,
+				39664CE724F0BA6100444547 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664CF324F0BA6600444547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39664CFC24F0BA6600444547 /* Cool_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39664CFE24F0BA6600444547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39664D0724F0BA6600444547 /* Cool_ClickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39664CF924F0BA6600444547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39664CE024F0BA6100444547 /* Cool Clicker */;
+			targetProxy = 39664CF824F0BA6600444547 /* PBXContainerItemProxy */;
+		};
+		39664D0424F0BA6600444547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39664CE024F0BA6100444547 /* Cool Clicker */;
+			targetProxy = 39664D0324F0BA6600444547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39664CEA24F0BA6100444547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39664CEB24F0BA6100444547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39664CEF24F0BA6500444547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39664CF024F0BA6500444547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39664D0924F0BA6600444547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39664D0A24F0BA6600444547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39664D0C24F0BA6600444547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39664D0D24F0BA6600444547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39664D0F24F0BA6600444547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool ClickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Clicker.app/Cool Clicker";
+			};
+			name = Debug;
+		};
+		39664D1024F0BA6600444547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool ClickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Clicker.app/Cool Clicker";
+			};
+			name = Release;
+		};
+		39664D1224F0BA6600444547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cool Clicker";
+			};
+			name = Debug;
+		};
+		39664D1324F0BA6600444547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cool ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Cool-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cool Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39664CDC24F0BA6100444547 /* Build configuration list for PBXProject "Cool Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39664D0924F0BA6600444547 /* Debug */,
+				39664D0A24F0BA6600444547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39664D0B24F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39664D0C24F0BA6600444547 /* Debug */,
+				39664D0D24F0BA6600444547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39664D0E24F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39664D0F24F0BA6600444547 /* Debug */,
+				39664D1024F0BA6600444547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39664D1124F0BA6600444547 /* Build configuration list for PBXNativeTarget "Cool ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39664D1224F0BA6600444547 /* Debug */,
+				39664D1324F0BA6600444547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39664CD924F0BA6100444547 /* Project object */;
+}
